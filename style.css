@@ -1,0 +1,46 @@
+/* Clobal */
+:root {
+	
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+*{
+	font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin:0px;
+  padding: 0px;
+}
+
+
+
+
+a {
+	text-decoration: none;
+	color: var(--color-black);}
+
+
+.wrap {
+	margin: 0; 
+	padding: 0;
+	top: 0px;
+	left: 0px;
+	width: 1000px;
+	height: 600px;
+	background: #000000 ;
+	}
+.slogan {
+	width: 100%;
+	height: 100px;
+	vertical-align: middle;
+	padding-right: 80px;
+	text-align: right;
+	font-size: 9px;
+	font-color: #707070;
+	letter-spacing: -0.5px;
+}
+		
