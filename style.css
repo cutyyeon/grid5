@@ -11,36 +11,123 @@
 *{
 	font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;  list-style: none;
   text-decoration: none;
-  border-collapse: collapse;
-  margin:0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 
-
+a:link
+{
+  color: #red;
+}
+a:hover {
+  color: #black;
+}
 
 a {
 	text-decoration: none;
 	color: var(--color-black);}
 
 
-.wrap {
-	margin: 0; 
-	padding: 0;
-	top: 0px;
-	left: 0px;
-	width: 1000px;
-	height: 600px;
-	background: #000000 ;
-	}
 .slogan {
-	width: 100%;
-	height: 100px;
-	vertical-align: middle;
-	padding-right: 80px;
+	font-family: 'Pretendard'; 
+	font-style: italic;
 	text-align: right;
 	font-size: 9px;
-	font-color: #707070;
-	letter-spacing: -0.5px;
+	color: #707070;
+	padding-right: 40px;;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing:0.8px;
 }
-		
+
+.content2 {
+width: 210px;
+background-color: black;}
+
+.jo {
+	font-family: 'Pretendard';	
+	color: white;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+
+.jo-s-s {
+	font-family: 'Pretendard';	
+	color: white;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.t1 {
+	font-family: 'Montserrat';	
+	color: #9C9C9C;
+	font-size: 8px;
+	font-weight: normal;
+}
+
+.content3 {
+	align-content: end;
+	width: 210px;
+}
+
+
+.grid {
+	font-family: 'Montserrat';	
+	color: white;
+	text-align: right;
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 28px;
+	margin-bottom: 16px;
+}
+
+
+.brandid {
+	font-family: 'Montserrat';	
+	color: #9C9C9C;
+	text-align: right;
+	font-size: 8px;
+	font-weight: light;
+	line-height: 11px;
+}
+
+.list {
+	width: 410px;
+	color: white;
+	font-size: 8px;
+	margin-left: 40px;
+	font-weight: light;
+	line-height: 11px;
+}
+
+.listtexten {
+	font-family: 'Montserrat';	
+	color: white;
+	font-size: 8px;
+	font-weight: normal;
+	line-height: 11px;
+}
+
+.listtextenb {
+	width: 16px;
+	font-family: 'Montserrat';	
+	color: white;
+	font-size: 8px;
+	font-weight: 800;
+	line-height: 11px;
+}
+
+
+.listtextkr {
+	margin: auto;
+	width: 410px;
+	font-family: 'Montserrat';	
+	color: white;
+	font-size: 8px;
+	font-weight: light;
+	line-height: 11px;
+}
+
+
